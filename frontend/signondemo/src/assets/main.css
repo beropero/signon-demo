@@ -1,0 +1,11 @@
+@import './base.css';
+
+#app {
+  margin: 0 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  min-width: 1280px;
+  min-height: 800px;
+  font-weight: normal;
+}

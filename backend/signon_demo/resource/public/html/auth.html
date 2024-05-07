@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>授权页面</title>
+<script>
+window.onload = function() {
+    // 弹出确认框
+    var isAuthorized = confirm("是否授权？");
+    
+    // 如果用户点击了确认按钮（是）
+    if (isAuthorized) {
+        // 获取 URL 中的参数
+        var urlParams = new URLSearchParams(window.location.search);
+        
+        // 获取名为"url"的参数值
+        var urlParamValue = urlParams.get('url');
+        
+        // 如果参数中包含了url参数
+        if (urlParamValue) {
+            // 使用获取到的 URL 参数值跳转到对应网址
+            window.location.href = urlParamValue;
+        } else {
+            // 如果没有url参数，则在这里输入默认的跳转网址
+            // window.location.href = "默认的跳转网址";
+            alert("未提供有效的跳转网址！");
+        }
+    } else {
+        // 用户点击了取消按钮（否）
+        alert("您拒绝了授权！");
+    }
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
