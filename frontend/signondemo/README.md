@@ -1,6 +1,22 @@
 # signondemo
-
-This template should help get you started developing with Vue 3 in Vite.
+## 路由
+  routes: [
+      {
+        path: '/signin',
+        name: 'signin',
+        component: () => import('../views/SignInView.vue')
+      },
+      {
+        path: '/signup',
+        name: 'signup',
+        component: () => import('../views/SignUpView.vue')
+      },
+      {
+        path: '/userhome',
+        name: 'userhome',
+        component: () => import('../views/UserHomeView.vue')
+      }
+    ]
 
 ## Recommended IDE Setup
 
