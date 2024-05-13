@@ -43,3 +43,10 @@ type BindWechatRes struct {
 	Ticket string `json:"ticket"`
 	Url    string `json:"url"`
 }
+
+type LogoutReq struct {
+	g.Meta `method:"Get" path:"/logout"`
+}
+
+type LogoutRes struct {}
+

@@ -15,4 +15,5 @@ type IUserV1 interface {
 	BindEmail(ctx context.Context, req *v1.BindEmailReq) (res *v1.BindEmailRes, err error)
 	BindMobile(ctx context.Context, req *v1.BindMobileReq) (res *v1.BindMobileRes, err error)
 	BindWechat(ctx context.Context, req *v1.BindWechatReq) (res *v1.BindWechatRes, err error)
+	Logout(ctx context.Context, req *v1.LogoutReq) (res *v1.LogoutRes, err error)
 }
