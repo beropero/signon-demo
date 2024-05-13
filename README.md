@@ -14,7 +14,9 @@
 - **第三方账号**（id（*pk*），用户id（*fk*），平台名，账号信息）
 - **JWT** (id（*pk*），用户id（*fk*），失效时间，是否注销)
 
+## 接口设计
+- https://apifox.com/apidoc/shared-95fb4b1e-ab46-497a-a41d-d250c1ae19ed
+
 ## 演示地址 
-http://39.101.78.10:5173/signin
-## 接口文档 
-https://apifox.com/apidoc/shared-95fb4b1e-ab46-497a-a41d-d250c1ae19ed
+- http://39.101.78.10:5173/signin
+
