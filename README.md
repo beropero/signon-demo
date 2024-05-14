@@ -11,6 +11,9 @@
 - **第三方账号**（id（*pk*），用户id（*fk*），平台名，账号信息）
 - **JWT** (id（*pk*），用户id（*fk*），失效时间，是否注销)
 
+## 系统逻辑架构
+![image](picture/signon-系统架构.png)
+
 ## 接口设计
 - https://apifox.com/apidoc/shared-95fb4b1e-ab46-497a-a41d-d250c1ae19ed
 
